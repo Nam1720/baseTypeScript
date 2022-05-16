@@ -1,0 +1,52 @@
+//Color
+$primary_color: #20bec6;
+$color_border: #c2c9c8;
+$color_primary_light: #e6eff4;
+$color_dark: #1a2625;
+$color_light: #fff;
+$color_gray: #eef3f6;
+$color_blue: #025b94;
+$color-grey: #708180;
+$color_cancel: #e8e9ec;
+$color_error: #cd0000;
+$color_green: #27ad60;
+$color-header-table: #ebf4fb;
+$color_secondary_red: #fd0707;
+$color_red_light: #f7b8b8;
+$color_grey_light: #485151;
+$color_code: #025B94;
+
+$colors: (
+  'color-primary': $primary_color,
+  'color-border': $color_border,
+  'color-primary-light': $color_primary_light,
+  'color-dark': $color_dark,
+  'color-light': $color_light,
+  'color-gray': $color_gray,
+  'color-blue': $color_blue,
+  'color-grey': $color-grey,
+  'color-red': $color_error,
+  'color-header-table': #ebf4fb,
+);
+
+//Border Radius
+$border-radius-base: 8px;
+//Font
+$font_primary: 'Inter', sans-serif;
+
+//unit
+$unit: 1%;
+@for $width from 1 through 100 {
+  .width-#{$width} {
+    width: $width * $unit;
+  }
+}
+
+@each $color, $value in $colors {
+  .bg-#{$color} {
+    background-color: $value !important;
+  }
+  .#{$color} {
+    color: $value !important;
+  }
+}

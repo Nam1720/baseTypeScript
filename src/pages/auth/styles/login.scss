@@ -1,0 +1,24 @@
+.login {
+  background: #e5e5e5;
+  &__wrap {
+    padding: 2.1875rem 2.5rem;
+    width: 30rem;
+
+    @media screen and ( min-width: 1600px ) {
+      width: 25rem;
+    }
+  }
+  &__logo {
+    margin-bottom: 2.5rem;
+  }
+
+  .login-form-button, .user, .password {
+    // height: 40px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  // .login-form-button {
+    // margin-top: 16px;
+  // }
+}

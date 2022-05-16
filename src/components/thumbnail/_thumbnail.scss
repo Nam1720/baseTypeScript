@@ -1,0 +1,14 @@
+.thumbnail {
+  input {
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  &__img {
+    &__del {
+      margin-left: -30px;
+      margin-top: -10px;
+    }
+  }
+}

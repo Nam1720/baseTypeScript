@@ -1,0 +1,68 @@
+@import './../../assets/scss/variables';
+
+.product-images-slider {
+  margin-bottom: 5px;
+  .swiper-slide {
+    padding-top: 70%;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .product-swiper-button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 10;
+    }
+  }
+
+  // .swiper-button-prev {
+  //   left: 30px;
+  //   color: rgb(255, 255, 255);
+  //   z-index: 100;
+  // }
+
+  // .swiper-button-next {
+  //   right: 30px;
+  //   color: rgb(255, 255, 255);
+  //   z-index: 100;
+  // }
+}
+
+.product-images-slider-thumbs {
+  .swiper-slide {
+    cursor: pointer;
+    border: 1px solid white;
+
+    &-thumb-active {
+      border-color: $primary_color;
+      border-style: dotted;
+      border-width: 2px;
+    }
+  }
+
+  &-wrapper {
+    width: 100%;
+    padding-top: 65%;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .product-thumb-button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 10;
+    }
+  }
+}

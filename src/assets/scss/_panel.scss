@@ -1,0 +1,41 @@
+.panel {
+  @extend .bg-color-light;
+  border-radius: 8px;
+}
+.table-panel {
+  padding: 20px 15px;
+}
+.padding-0-20 {
+  padding: 0 1rem;
+}
+.box-filter {
+  &__filter {
+    padding: 10px 10px;
+    background-color: #eef3f6;
+    border: none !important;
+    border-radius: 8px;
+    color: #708180;
+    input {
+      border: none;
+      background-color: #eef3f6 !important;
+      .ant-input {
+        background-color: #eef3f6 !important;
+      }
+    }
+  }
+}
+
+.filter-container {
+  padding: 10px 10px;
+  background-color: #eef3f6;
+  border: none !important;
+  border-radius: 8px;
+  color: #708180;
+  input {
+    border: none;
+    background-color: #eef3f6 !important;
+    .ant-input {
+      background-color: #eef3f6 !important;
+    }
+  }
+}

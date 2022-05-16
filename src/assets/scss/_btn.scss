@@ -1,0 +1,78 @@
+.btn {
+  color: $color_dark;
+  border-radius: 8px;
+  i {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  &-blue {
+    color: $color_light;
+    background: $color_blue;
+    border-color: $color_blue;
+    &:hover,
+    &:focus {
+      color: $color_light;
+      background: $color_blue;
+      border-color: $color_blue;
+    }
+  }
+  &-cancel {
+    color: $color_dark;
+    background: $color_cancel;
+    border-color: $color_cancel;
+    &:hover,
+    &:focus {
+      color: $color_dark;
+      background: $color_cancel;
+      border-color: $color_cancel;
+    }
+  }
+  &-error {
+    color: $color_light;
+    background: $color_error;
+    border-color: $color_error;
+    &:hover,
+    &:focus {
+      color: $color_light;
+      background: $color_error;
+      border-color: $color_error;
+    }
+  }
+  &-import {
+    color: $color_light;
+    background: $primary_color;
+    border-color: $primary_color;
+    &:hover,
+    &:focus {
+      color: $color_light;
+      background: $primary_color;
+      border-color: $primary_color;
+    }
+  }
+  &-add-current {
+    color: $color_blue;
+    background: $color_light;
+    border: none !important;
+    box-shadow: unset !important;
+    &:hover,
+    &:focus {
+      color: $color_blue;
+      background: $color_light;
+    }
+  }
+}
+.btn-refresh{
+  background: none;
+  box-shadow: none;
+  margin-right: 1rem;
+  &:hover{
+    background: none;
+  }
+}
+
+.btn-icon {
+  padding: 5px 10px;
+  border: 1px solid $color_cancel;
+  border-radius: 4px;
+}
+

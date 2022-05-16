@@ -1,0 +1,51 @@
+{
+  "common": {
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "close": "Close",
+    "yes": "Yes",
+    "cancel": "Cancel",
+    "overview": "Overview"
+  },
+  "branch": {
+    "name": "Branch name",
+    "address": "Address",
+    "phoneNumber": "Phone Number",
+    "account": "Account",
+    "password": "Password",
+    "passwordConfirm": "Password confirm",
+    "action": "Action",
+    "addBranch": "Add branch",
+    "findBranch": "Find branch...",
+    "branchDetails": "Branch Details",
+    "productName": "Product/ Service name",
+    "category": "Category",
+    "price": "Price",
+    "active": "Active",
+    "branchEdit": "Edit Branch",
+    "branchAdd": "Add branch"
+  },
+  "business": {
+    "info": "Business information",
+    "companyName": "Company name",
+    "contact": "Contact",
+    "field": "Field",
+    "desc": "Business description",
+    "address": "Address",
+    "taxNumber": "Tax Number",
+    "bankInfo": "Bank Information",
+    "email": "Email",
+    "link": "Link(web/facebook...)",
+    "license": "Business License",
+    "code": "Business Code",
+    "contract": "Contract Details",
+    "map": "Map",
+    "city": "City/ Province",
+    "district": "District",
+    "subDistrict": "Sub-District",
+    "street": "Street",
+    "representative": "Representative"
+  }
+}

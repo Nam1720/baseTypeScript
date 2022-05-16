@@ -1,0 +1,20 @@
+.btn-backpage{
+  background: 0;
+  border: 0;
+  box-shadow: none;
+  color: #222222;
+  padding: 0;
+  &:hover{
+    background: 0;
+    color: inherit;
+  }
+}
+.icon-back{
+  padding: 0.5rem;
+  background: #FFF;
+  border-radius: 50%;
+  border: 1px solid #E8E9EC;
+  color: #C2C9C8;
+  width: 36px;
+  height: 36px;
+}
